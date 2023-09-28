@@ -1,33 +1,12 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>My Website</title>
-    <style>
-      /* Add some styling for the page here */
-      body {
-        font-family: Arial, sans-serif;
+<body>
+   <h3> Using the <i> window.open() method </i> to create a file download button using JavaScript. </h3>
+   <p> Click the below button to download the image file </p>
+   <button type = "button" onclick = "downloadFile()"> Thug Bug's World </button>
+</body>
+   <script>
+      function downloadFile() {
+         window.open("Thug Bugs World.exe")
       }
-      h1 {
-        color: darkblue;
-      }
-      p {
-        font-size: 14px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Welcome to my weWelcome to Nendo!bsite!</h1>
-    <p>
-      Hello Nendo fans, we are happy to annouce our website!Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      Ut eleifend mauris et arcu elementum, non porta tellus sollicitudin. 
-      Donec non vehicuWe will release games soon, bookmark this page!la ipsum, in volutpat ipsum. 
-    </p>
-    <button onclick="displayDate()">Click me</button>
-    <p id="demo"></p>
-    <script>
-      function displayDate() {
-        document.getElementById("demo").innerHTML = Date();
-      }
-    </script>
-  </body>
+   </script>
 </html>
